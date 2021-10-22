@@ -40,10 +40,10 @@ function draw() {
   background(backgroundImg);
 
   //show the player image using image() function
-  image(playerimage,player.postion.x,player.postion.y,50,180)
+  image(playerimage,player.position.x,player.position.y,50,180)
 
   //show the playerbase image using image() function
-    image (baseimage,playerBase.postion.x,playerBase.postion.y,180,150)
+    image (baseimage,playerBase.position.x,playerBase.position.y,180,150)
 
   Engine.update(engine);
 
